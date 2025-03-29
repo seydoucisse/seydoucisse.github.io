@@ -1,0 +1,50 @@
+---
+import ProjectCard from "@components/ui/ProjectCard.astro";
+import projects from "@data/projects.en.json";
+
+interface Props {
+  maxItems: number;
+  title: string;
+  description: string;
+  showButton: boolean;
+}
+
+const { title, description, maxItems, showButton } = Astro.props;
+---
+
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-title-container">
+      <h2 class="section-title">{title}</h2>
+    </div>
+    <p class="section-subtitle">{description}</p>
+    <div class="projects-grid">
+      {
+        projects
+          .filter((_, index) => index < maxItems)
+          .map((project, index) => (
+            <ProjectCard
+              title={project.title}
+              description={project.description}
+              statusText={project.statusText}
+              statusColor={project.statusColor}
+              imageUrl={project.imageUrl}
+              imageAlt={project.imageAlt}
+              projectUrl={project.projectUrl}
+              index={index}
+            />
+          ))
+      }
+    </div>
+    {
+      showButton && (
+        <div class="view-all-projects">
+          <a href="/projects" class="btn btn-orange">
+            <i class="fa-solid fa-list-check" />
+            All Projects
+          </a>
+        </div>
+      )
+    }
+  </div>
+</section>

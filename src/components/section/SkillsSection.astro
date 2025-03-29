@@ -1,0 +1,23 @@
+---
+// Skills section component
+import SkillCard from "@components/ui/SkillCard.astro";
+import type { SkillItem } from "src/types";
+
+interface Props {
+  skills: SkillItem[];
+}
+
+const { skills } = Astro.props;
+---
+
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="section-title-container">
+      <h2 class="section-title">Skills & Expertise</h2>
+    </div>
+    <p class="section-subtitle">My technical toolkit and areas of expertise</p>
+    <div class="skills-grid">
+      {skills.map((skill, index) => <SkillCard skill={skill} index={index} />)}
+    </div>
+  </div>
+</section>

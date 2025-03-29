@@ -1,0 +1,41 @@
+---
+import type { PersonalInfo } from "src/types";
+
+interface Props {
+  info: PersonalInfo;
+}
+
+const { email, linkedin, github } = Astro.props.info;
+---
+
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-title-container">
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+    <p class="section-subtitle">
+      Interested in working together? Let's connect!
+    </p>
+    <div class="contact-container">
+      <div class="contact-method easter-egg">
+        <i class="fa-solid fa-contact-card"></i>
+        <p>cisse.seydou1@yahoo.com</p>
+        <div class="easter-egg-tooltip">
+          Send me an email with the subject "Akwaba" (welcome in Ivorian) for a
+          faster response!
+        </div>
+      </div>
+      <div class="contact-social">
+        <a href={github} target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href={linkedin} target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href={`mailto:${email}`} aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

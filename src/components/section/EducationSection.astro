@@ -1,0 +1,28 @@
+---
+import EducationCard from "@components/ui/EducationCard.astro";
+import type { EducationItem } from "src/types";
+
+interface Props {
+  education: EducationItem[];
+}
+
+const { education } = Astro.props;
+---
+
+<section id="education" class="section">
+  <div class="container">
+    <div class="section-title-container">
+      <h2 class="section-title">Education</h2>
+    </div>
+    <p class="section-subtitle">
+      My academic background and continuous learning journey
+    </p>
+    <div class="education-container">
+      {
+        education.map((education, index) => (
+          <EducationCard educationItem={education} index={index} />
+        ))
+      }
+    </div>
+  </div>
+</section>

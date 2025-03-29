@@ -1,0 +1,27 @@
+---
+import AboutSection from "@components/section/AboutSection.astro";
+import CareerSection from "@components/section/CareerSection.astro";
+import ContactSection from "@components/section/ContactSection.astro";
+import EducationSection from "@components/section/EducationSection.astro";
+import HeroSection from "@components/section/HeroSection.astro";
+import ProjectsSection from "@components/section/ProjectsSection.astro";
+import SkillsSection from "@components/section/SkillsSection.astro";
+import Layout from "@layouts/Layout.astro";
+
+import resume from "@data/resume.en.json";
+---
+
+<Layout>
+  <HeroSection />
+  <AboutSection />
+  <CareerSection career={resume.career} />
+  <SkillsSection skills={resume.skills} />
+  <EducationSection education={resume.education} />
+  <ProjectsSection
+    title="Featured Projects"
+    description="A selection of my recent work and contributions"
+    maxItems={3}
+    showButton={true}
+  />
+  <ContactSection info={resume.info} />
+</Layout>

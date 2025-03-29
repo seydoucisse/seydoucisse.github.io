@@ -1,0 +1,15 @@
+---
+import ProjectsSection from "@components/section/ProjectsSection.astro";
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout>
+  <div style="margin-top: 30px;">
+    <ProjectsSection
+      title="Featured Projects"
+      description="Discover all my work and contributions"
+      maxItems={Number.POSITIVE_INFINITY}
+      showButton={false}
+    />
+  </div>
+</Layout>

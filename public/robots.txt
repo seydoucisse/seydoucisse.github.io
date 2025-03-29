@@ -1,0 +1,10 @@
+# robots.txt for portfolio website
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://seydoucisse.github.io/sitemap.xml
+
+# Disallow any potential admin or private areas
+Disallow: /admin/
+Disallow: /private/

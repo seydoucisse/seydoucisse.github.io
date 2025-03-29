@@ -1,0 +1,28 @@
+---
+import type { SkillItem } from "src/types";
+
+interface Props {
+  skill: SkillItem;
+  index: number;
+}
+
+const {
+  skill: { title, icon, description, tags },
+  index,
+} = Astro.props;
+---
+
+<div class="skill-card easter-egg" style={`--item-index: ${index}`}>
+  <div class="skill-header">
+    <div class="skill-title">{title}</div>
+    <div class="skill-icon">
+      <i class={`fa-solid ${icon}`}></i>
+    </div>
+  </div>
+  <div class="skill-description">
+    {description}
+  </div>
+  <div class="skill-tags">
+    {tags.map((tag) => <span class="skill-tag">{tag}</span>)}
+  </div>
+</div>

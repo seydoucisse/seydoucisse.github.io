@@ -1,0 +1,42 @@
+[
+    {
+      "title": "JWT Spring Boot Starter",
+      "description":
+        "A simple Spring Boot starter for JWT (JSON Web Token) authentication that automatically configures JWT functionality in Spring Boot applications.",
+      "statusText": "Maintained",
+      "statusColor": "green",
+      "imageUrl": "/images/spring_jwt.png",
+      "imageAlt": "JWT Spring Boot Starter logo",
+      "projectUrl": "https://github.com/seydoucisse/jwt-spring-boot-starter"
+    },
+    {
+      "title": "Westocks ",
+      "description":
+        "A portfolio management application that allows users to track their assets and investments in BRVM.",
+      "statusText": "Coming Soon",
+      "statusColor": "orange",
+      "imageUrl": "/images//logo_brvm.jpg",
+      "imageAlt": "Westocks logo",
+      "projectUrl": "https://www.westocks.africa"
+    },
+    {
+      "title": "Promise Tracker",
+      "description":
+        "A community-driven platform for tracking and analyzing promises made by elected officials.",
+      "statusText": "Coming Soon",
+      "statusColor": "orange",
+      "imageUrl": "https://placehold.co/400x200@2x.webp?text=Coming+Soon",
+      "imageAlt": "Promize Tracker logo",
+      "projectUrl": "https://www.promisetracker.ci"
+    },
+    {
+      "title": "Legal[AI]ze",
+      "description":
+        "An AI-powered chatbot trained on legal documents to assist users in navigating the legal system.",
+      "statusText": "Coming Soon",
+      "statusColor": "orange",
+      "imageUrl": "https://placehold.co/400x200@3x.webP?text=Coming+Soon",
+      "imageAlt": "Leagalize logo",
+      "projectUrl": "#"
+    }
+  ]

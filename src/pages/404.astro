@@ -1,0 +1,45 @@
+---
+import Layout from "@layouts/Layout.astro";
+import { Image } from "astro:assets";
+---
+
+<Layout>
+  <div class="section">
+    <div class="error-container">
+      <h1 class="error-code">404</h1>
+      <h2 class="error-title">Page Not Found</h2>
+      <p class="error-message">
+        Oops! Looks like you've ventured into uncharted territory. The page
+        you're looking for seems to have disappeared into the digital void.
+      </p>
+
+      <p class="error-message">
+        <span
+          style="font-family: 'JetBrains Mono', monospace; color: var(--green);"
+        >
+          // Maybe it's a bug in the matrix, or perhaps a feature?
+        </span>
+      </p>
+
+      <div class="error-buttons">
+        <a href="/" class="btn btn-orange">
+          <i class="fa-solid fa-house"></i> Back to Home
+        </a>
+        <a href="/#contact" class="btn btn-outline">
+          <i class="fa-solid fa-message"></i> Report This Issue
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
+<script>
+  // Easter egg: Console message
+  console.log(
+    "%c404 - Page Not Found",
+    "font-size: 20px; font-weight: bold; color: #ff6b35;"
+  );
+  console.log(
+    "%cLooking for something? Maybe I can help. Check out my portfolio at the homepage!",
+    "font-size: 14px;"
+  );
+</script>

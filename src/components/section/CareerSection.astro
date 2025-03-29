@@ -1,0 +1,22 @@
+---
+import TimelineItem from "@components/ui/TimelineItem.astro";
+import type { CareerItem } from "src/types";
+
+interface Props {
+  career: CareerItem[];
+}
+
+const { career } = Astro.props;
+---
+
+<section id="career" class="section">
+  <div class="container">
+    <div class="section-title-container">
+      <h2 class="section-title">Professional Experience</h2>
+    </div>
+    <p class="section-subtitle">My career journey and professional growth</p>
+    <div class="career-timeline">
+      {career.map((job, index) => <TimelineItem job={job} index={index} />)}
+    </div>
+  </div>
+</section>

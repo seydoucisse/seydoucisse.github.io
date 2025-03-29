@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+---
+
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-content">
+      <p
+        style="font-family: 'JetBrains Mono', monospace; color: var(--green); margin-bottom: 10px;"
+      >
+        <span class="typing-code">Hello, World! I am</span>
+      </p>
+      <h1>Seydou CISSE</h1>
+      <p>
+        A Software Developer with over 7 years of experience designing and
+        implementing enterprise-grade applications and scalable distributed
+        systems.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-orange">
+          <i class="fa-solid fa-phone"></i> Contact Me
+        </a>
+        <a href="/projects" class="btn btn-outline">
+          <i class="fa-solid fa-laptop-code"></i>
+          My works
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <Image
+        src="https://avatar.iran.liara.run/public/8"
+        alt="Seydou CISSE Illustration"
+        width={350}
+        height={350}
+        style="width: 100%; height: auto; max-width: 350px;"
+      />
+    </div>
+  </div>
+</section>

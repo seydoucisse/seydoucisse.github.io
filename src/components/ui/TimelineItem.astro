@@ -1,0 +1,58 @@
+---
+import { Image } from "astro:assets";
+import type { CareerItem } from "src/types";
+
+interface Props {
+  job: CareerItem;
+}
+
+interface Props {
+  job: CareerItem;
+  index: number;
+}
+
+const {
+  job: {
+    title,
+    company,
+    location,
+    date,
+    description,
+    achievements,
+    logoUrl,
+    logoAlt,
+  },
+  index,
+} = Astro.props;
+
+const companyText = location ? `${company}, ${location}` : company;
+---
+
+<div class="timeline-item" style={`--item-index: ${index}`}>
+  <div class="timeline-content">
+    <span class="timeline-date">{date}</span>
+    <div class="timeline-header">
+      <Image
+        src={logoUrl}
+        alt={logoAlt}
+        width={32}
+        height={32}
+        class="timeline-logo"
+      />
+      <div class="timeline-title-container">
+        <h3 class="timeline-title">{title}</h3>
+        <div class="timeline-company">{company}</div>
+        <div class="timeline-location">{location}</div>
+      </div>
+    </div>
+    <p class="timeline-description">
+      {description}
+    </p>
+    <div class="timeline-achievements">
+      <h4>Key Achievements:</h4>
+      <ul>
+        {achievements.map((achievement) => <li>{achievement}</li>)}
+      </ul>
+    </div>
+  </div>
+</div>

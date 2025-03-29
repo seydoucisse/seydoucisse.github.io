@@ -1,0 +1,30 @@
+---
+
+---
+
+<div class="scroll-to-top" id="scroll-to-top">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const scrollToTopBtn = document.getElementById("scroll-to-top");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 300) {
+        scrollToTopBtn?.classList.add("visible", "opacity-100");
+        scrollToTopBtn?.classList.remove("invisible", "opacity-0");
+      } else {
+        scrollToTopBtn?.classList.remove("visible", "opacity-100");
+        scrollToTopBtn?.classList.add("invisible", "opacity-0");
+      }
+    });
+
+    scrollToTopBtn?.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  });
+</script>

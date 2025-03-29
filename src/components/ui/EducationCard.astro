@@ -1,0 +1,48 @@
+---
+import type { EducationItem } from "src/types";
+
+interface Props {
+  educationItem: EducationItem;
+  index: number;
+}
+
+const {
+  educationItem: {
+    startDate,
+    endDate,
+    degree,
+    description,
+    location,
+    school,
+    countryEmoji,
+  },
+  index,
+} = Astro.props;
+const descriptionLines = description.split(" | ");
+const hasMultipleLines = descriptionLines.length > 1;
+---
+
+<div class="education-card" style={`--item-index: ${index}`}>
+  <div class="education-header">
+    <div class="education-subheader">
+      <div class="education-date">{startDate} - {endDate}</div>
+      <div class="education-location" title={location}>{countryEmoji}</div>
+    </div>
+    <h3 class="education-degree">{degree}</h3>
+    <div class="education-school">{school}</div>
+  </div>
+  <div class="education-content">
+    <div class="education-description">
+      {
+        hasMultipleLines && (
+          <ul>
+            {descriptionLines.map((line) => (
+              <li>{line}</li>
+            ))}
+          </ul>
+        )
+      }
+      {!hasMultipleLines && description}
+    </div>
+  </div>
+</div>

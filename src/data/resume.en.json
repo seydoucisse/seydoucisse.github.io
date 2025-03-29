@@ -1,0 +1,157 @@
+{
+  "info": {
+    "name": "Seydou CISSE",
+    "title": "Senior Software Engineer",
+     "location": "Casablanca, Morocco",
+    "phone": "",
+    "email": "cisse.seydou1@yahoo.com",
+    "linkedin": "https://linkedin.com/in/seydou-cisse/",
+    "github": "https://github.com/seydoucisse"
+  },
+  "career": [
+    {
+      "date": "May 2023 - Present",
+      "title": "Lead Developer",
+      "company": "Carrefour Group",
+      "location": "Remote",
+      "description": "Lead developer for enterprise-level applications, focusing on microservices architecture and cloud-native solutions.",
+      "achievements": [
+        "Led the development of an invoice standardization application for the Carrefour group.",
+        "Implemented a rule engine for invoice validation improving developer productivity 60%.",
+        "Implemented CI/CD pipeline with Jenkins and Gitlab CI reducing deployment time."
+      ],
+      "logoUrl": "/images/logo/logo-carrefour.webp",
+      "logoAlt": "Carrefour Group logo"
+    },
+    {
+      "date": "Sep 2021 - May 2023",
+      "title": "Software Developer",
+      "company": "Attijariwafa Bank Group",
+      "location": "Casablanca, Morocco",
+      "description": "Developed and maintained applications related to credit domain and reporting.",
+      "achievements": [
+        "Maintained a credit scoring middleware used for credits applications and companies rating",
+        "Built an application for exchanging credit declaration data with Bank Al-Maghrib (Central Bank of Morocco)",
+        "Built a middleware reporting application for generating all reports related to credit"
+      ],
+      "logoUrl": "/images/logo/logo-attijari.webp",
+      "logoAlt": "Attijari IT Africa logo"
+    },
+    {
+      "date": "Jan 2018 - Aug 2021",
+      "title": "Software Developer",
+      "company": "Société Nationale de Développement Informatique (SNDI)",
+      "location": "Abidjan, Côte d'Ivoire",
+      "description": "Implemented large-scale systems for public finance, epidemiological surveillance, and treasury management.",
+      "achievements": [
+        "Built the Public Finance Management Information System (SIGFP) of Benin",
+        "Built the Epidemiological Surveillance Information System (SISE) for the Pasteur Institute CI as part of the response against COVID-19 in Côte d'Ivoire",
+        "Built reports for various applications, mainly accounting and financial ones"
+      ],
+      "logoUrl": "/images/logo/logo-sndi.webp",
+      "logoAlt": "SNDI logo"
+    },
+    {
+      "date": "Aug 2017 - Jan 2018",
+      "title": "System Administrator",
+      "company": "Groupement des Services Eau et Electricité (GS2E)",
+      "location": "Abidjan, Côte d'Ivoire",
+      "description": "Administered and maintained the CRM systems the national company of water and electricity.",
+      "achievements": [
+        "Administered a Dynamics CRM platform handling millions of customers",
+        "Administered a group-level Sharepoint platform for managing company-wide data",
+        "Automated daily admistration routine with Poweshell scripts"
+      ],
+      "logoUrl": "/images/logo/logo-gs2e.webp",
+      "logoAlt": "GS2E logo"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Backend Development",
+      "description": "Expert in Java and frameworks like Spring and Spring Boot for backend development.",
+      "tags": ["Java", "Python", "Spring", "Js / Ts"],
+      "icon": "fa-code"
+    },
+    {
+      "title": "Frontend Development",
+      "description": "Experience building modern web applications using Angular and React.",
+      "tags": ["Angular", "React", "Astro", "React Native"],
+      "icon": "fa-desktop"
+    },
+    {
+      "title": "Software Architecture",
+      "description": "Design and implementation of scalable and maintainable software architectures.",
+      "tags": ["Architecture", "DDD", "Distributed systems"],
+      "icon": "fa-project-diagram"
+    },
+    {
+      "title": "Cloud Technologies",
+      "description": "Skilled with various cloud providers",
+      "tags": ["Azure", "GCP", "AWS"],
+      "icon": "fa-cloud"
+    },
+    {
+      "title": "DevOps",
+      "description": "Proficient in CI/CD pipeline management and container orchestration.",
+      "tags": ["Github", "GitLab", "Kubernetes", "Jenkins", "Docker", "Git"],
+      "icon": "fa-server"
+    },
+    {
+      "title": "Database Management",
+      "description": "Experienced with both relational and NoSQL databases.",
+      "tags": ["PostgreSQL", "MariaDB", "Couchbase"],
+      "icon": "fa-database"
+    },
+    {
+      "title": "Machine Learning/AI Basics",
+      "description": "Familiarity with AI concepts and foundational machine learning techniques.",
+      "tags": ["AI", "ML", "LLM"],
+      "icon": "fa-robot"
+    },
+    {
+      "title": "Agile Methodologies",
+      "description": "Experience working within Scrum and Agile development environments.",
+      "tags": ["Scrum", "Agile", "Jira"],
+      "icon": "fa-tasks"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "school": "High School of Communications of Tunis (SUPCOM)",
+      "startDate": "Aug 2016",
+      "endDate": "Jun 2017",
+      "description": "Software engineering program focused on computer vision, machine learning and M2M applications.",
+      "location": "Tunis, Tunisia",
+      "countryEmoji": "🇹🇳"
+    },
+    {
+      "degree": "MSc, Computer Science",
+      "school": "Ecole Supérieure Africaine des TIC (ESATIC)",
+      "startDate": "Sep 2015",
+      "endDate": "Jun 2017",
+      "description": "Advanced studies in software engineering emphasizing design and architecture.",
+      "location":"Abidjan, Côte d'Ivoire",
+      "countryEmoji": "🇨🇮"
+    },
+    {
+      "degree": "BSc, Computer Science",
+      "school": "Ecole Supérieure Africaine des TIC (ESATIC)",
+      "startDate": "Sep 2012",
+      "endDate": "Jun 2015",
+      "description": "Undergraduate program covering fundamental computing concepts.",
+      "location":"Abidjan, Côte d'Ivoire",
+      "countryEmoji": "🇨🇮"
+    },
+    {
+      "degree": "Professional Certifications",
+      "school": "Various",
+      "startDate": "2022",
+      "endDate": "Ongoing",
+      "description": "AZ-900: Azure Fundamentals | AWS Cloud Developer | SCRUM Foundation Professional Certificate.",
+      "location":"Online",
+      "countryEmoji": "🌍"
+    }
+  ]
+}
