@@ -95,25 +95,7 @@
         closeMobileMenu();
       }
     });
-
-    // Smooth scrolling for anchor links
-    document.querySelectorAll(".nav-link").forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-
-        const target = e.target as HTMLAnchorElement;
-        const targetId = target.getAttribute("href")?.replace("/", "") ?? "#";
-        if (targetId === "#") return;
-
-        const targetElement = document.querySelector(targetId) as HTMLElement;
-        if (targetElement) {
-          window.scrollTo({
-            top: targetElement.offsetTop - 80,
-            behavior: "smooth",
-          });
-        }
-      });
-    });
+    
 
     // Handle scroll
     window.addEventListener("scroll", function () {
