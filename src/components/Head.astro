@@ -30,6 +30,9 @@ const {
   <!-- Canonical URL -->
   <link rel="canonical" href={canonicalURL} />
 
+  <!-- Sitemap -->
+   <link rel="sitemap" href="/sitemap-index.xml" />
+  
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalURL} />
@@ -59,4 +62,20 @@ const {
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+
+  <!-- JSON-LD Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Seydou CISSE",
+      "url": "https://seydoucisse.github.io",
+      "jobTitle": "Senior Software Engineer",
+      "description": "Senior software engineer specializing in full-stack development, cloud architecture, and scalable solutions. Explore my projects, technical insights, and professional journey.",
+      "sameAs": [
+        "https://github.com/seydoucisse",
+        "https://www.linkedin.com/in/seydoucisse/"
+      ]
+    }
+  </script>
 </head>
