@@ -70,13 +70,13 @@
     {
       "title": "Backend Development",
       "description": "Expert in Java and frameworks like Spring and Spring Boot for backend development.",
-      "tags": ["Java", "Python", "Spring", "Js / Ts"],
+      "tags": ["Java", "Python", "Spring", "Typescript"],
       "icon": "fa-code"
     },
     {
       "title": "Frontend Development",
       "description": "Experience building modern web applications using Angular and React.",
-      "tags": ["Angular", "React", "Astro", "React Native"],
+      "tags": ["Angular", "React", "Web standards"],
       "icon": "fa-desktop"
     },
     {
