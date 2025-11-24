@@ -2,7 +2,7 @@
   "info": {
     "name": "Seydou CISSE",
     "title": "Senior Software Engineer",
-     "location": "Casablanca, Morocco",
+    "location": "Casablanca, Morocco",
     "phone": "",
     "email": "cisse.seydou1@yahoo.com",
     "linkedin": "https://linkedin.com/in/seydou-cisse/",
@@ -70,49 +70,60 @@
     {
       "title": "Backend Development",
       "description": "Expert in Java and frameworks like Spring and Spring Boot for backend development.",
-      "tags": ["Java", "Python", "Spring", "Typescript"],
+      "tags": [
+        "Java",
+        "Quarkus",
+        "Spring Ecosystem",
+        "Apache Camel",
+        "Apache kafka"
+      ],
       "icon": "fa-code"
     },
     {
       "title": "Frontend Development",
       "description": "Experience building modern web applications using Angular and React.",
-      "tags": ["Angular", "React", "Web standards"],
+      "tags": ["Angular", "Mobile dev", "Web standards", "Astro"],
       "icon": "fa-desktop"
     },
     {
       "title": "Software Architecture",
       "description": "Design and implementation of scalable and maintainable software architectures.",
-      "tags": ["Architecture", "DDD", "Distributed systems"],
+      "tags": [
+        "Architecture",
+        "DDD",
+        "Distributed systems",
+        "Data Streaming apps"
+      ],
       "icon": "fa-project-diagram"
     },
     {
       "title": "Cloud Technologies",
       "description": "Skilled with various cloud providers",
-      "tags": ["Azure", "GCP", "AWS"],
+      "tags": ["Azure", "Google Cloud", "Amazon Web Services"],
       "icon": "fa-cloud"
     },
     {
       "title": "DevOps",
       "description": "Proficient in CI/CD pipeline management and container orchestration.",
-      "tags": ["Github", "GitLab", "Kubernetes", "Jenkins", "Docker", "Git"],
+      "tags": ["Github / GitLab", "Git", "Kubernetes", "Docker"],
       "icon": "fa-server"
     },
     {
       "title": "Database Management",
       "description": "Experienced with both relational and NoSQL databases.",
-      "tags": ["PostgreSQL", "MariaDB", "Couchbase"],
+      "tags": ["PostgreSQL", "MariaDB", "Couchbase", "SQLite"],
       "icon": "fa-database"
     },
     {
       "title": "Machine Learning/AI Basics",
       "description": "Familiarity with AI concepts and foundational machine learning techniques.",
-      "tags": ["AI", "ML", "LLM"],
+      "tags": ["LLM", "AI Agents", "RAG", "AI Automation"],
       "icon": "fa-robot"
     },
     {
       "title": "Agile Methodologies",
       "description": "Experience working within Scrum and Agile development environments.",
-      "tags": ["Scrum", "Agile", "Jira"],
+      "tags": ["Agile Methodology", "Scrum", "Jira"],
       "icon": "fa-tasks"
     }
   ],
@@ -132,7 +143,7 @@
       "startDate": "Sep 2015",
       "endDate": "Jun 2017",
       "description": "Advanced studies in software engineering emphasizing design and architecture.",
-      "location":"Abidjan, Côte d'Ivoire",
+      "location": "Abidjan, Côte d'Ivoire",
       "countryEmoji": "🇨🇮"
     },
     {
@@ -141,7 +152,7 @@
       "startDate": "Sep 2012",
       "endDate": "Jun 2015",
       "description": "Undergraduate program covering fundamental computing concepts.",
-      "location":"Abidjan, Côte d'Ivoire",
+      "location": "Abidjan, Côte d'Ivoire",
       "countryEmoji": "🇨🇮"
     },
     {
@@ -149,8 +160,8 @@
       "school": "Various",
       "startDate": "2022",
       "endDate": "Ongoing",
-      "description": "AZ-900: Azure Fundamentals | AWS Cloud Developer | SCRUM Foundation Professional Certificate.",
-      "location":"Online",
+      "description": "Confluent Data Streaming Engineer | AZ-900: Azure Fundamentals | AWS Cloud Developer | SCRUM Foundation Professional Certificate.",
+      "location": "Online",
       "countryEmoji": "🌍"
     }
   ]
