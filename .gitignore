@@ -1,6 +1,9 @@
 # build output
 dist/
+<<<<<<< HEAD
 
+=======
+>>>>>>> 81a5919 ("Initial commit from Astro")
 # generated types
 .astro/
 
@@ -13,6 +16,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 81a5919 ("Initial commit from Astro")
 # environment variables
 .env
 .env.production
@@ -20,6 +27,11 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+<<<<<<< HEAD
 # IDE setting folder
 .idea/
 .vscode/
+=======
+# jetbrains setting folder
+.idea/
+>>>>>>> 81a5919 ("Initial commit from Astro")
